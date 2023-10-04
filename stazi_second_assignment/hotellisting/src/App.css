@@ -1,0 +1,27 @@
+.card{
+  background-color: white;
+  border-radius: 4%;
+  box-shadow: 5px 10px 5px #c9c6c6;
+}
+.contentbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 60px;
+  
+}
+.imagecontent{
+  position:absolute;
+  width: 320px;
+  top: 20px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name{
+  font-weight: bold;
+}
+.tabcontent{
+  padding: 45px;
+}
